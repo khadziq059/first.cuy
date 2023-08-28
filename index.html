@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warung Oren</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!--Link logo-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Link font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <a href="../Home/index.html" class="navbar-logo">WAREN</a>
+      <div class="navbar-nav">
+          <a href="../Home/index.html">Home</a>
+          <a href="../AboutUs/aboutus.html">About Us</a>
+          <a href="../MenuKami/index.html">Our Menu</a>
+          <a href="#kontak">Contact Us</a>
+      </div>
+  </header>
+
+    <!--Home-->
+    <section class="home">
+      <h1>Makan Enak Murah Meriah</h1>
+      <a href="../MenuKami/index.html">Lihat Menu Kami</a>
+    </section>
+
+    <!-- Menu -->
+    <section class="menu">
+      <div class="textMenu">
+        <h2>Menu Pilihan Kami</h2>
+      </div>
+      <div>
+      Mencari inspirasi kuliner? Hidangan teratas ini
+      pasti <br>akan memuaskan selera Anda dan memuaskan hasrat Anda
+      </div>
+      <div class="container">
+        <div class="card">
+          <img src="ayam.jpg" alt="ayam goreng" />
+          <div class="harga">Rp 7.000</div>
+          <div class="nama">Ayam goreng</div>
+        </div>
+        <div class="card">
+          <img src="ayam.jpg" alt="ayam goreng" />
+          <div class="harga">Rp 7.000</div>
+          <div class="nama">Ayam goreng</div>
+        </div>
+        <div class="card">
+          <img src="ayam.jpg" alt="ayam goreng" />
+          <div class="harga">Rp 7.000</div>
+          <div class="nama">Ayam goreng</div>
+        </div>
+        <div class="card">
+          <img src="ayam.jpg" alt="ayam goreng" />
+          <div class="harga">Rp 7.000</div>
+          <div class="nama">Ayam goreng</div>
+        </div>
+      </div>
+    </section>
+
+    <!--Konten-->
+    <section class="konten">
+      <div class="bungkus">
+      <h2>Kenapa Harus Waren?</h2>
+      <table>
+        <tr>
+          <td>Makanan Lezat dan Bergizi</td>
+          <td class="icon">&#10004;</td>
+        </tr>
+        <tr>
+          <td>Bersertifikat Halal</td>
+          <td class="icon">&#10004;</td>
+        </tr>
+        <tr>
+          <td>The Jakmania</td>
+          <td class="icon">&#10006;</td>
+        </tr>
+        <tr>
+          <td>Harga Terjangkau</td>
+          <td class="icon">&#10004;</td>
+        </tr>
+        <tr>
+          <td>Memakai Pengawet Makanan</td>
+          <td class="icon">&#10006;</td>
+        </tr>
+        <tr>
+          <td>Pelayanan Ramah</td>
+          <td class="icon">&#10004;</td>
+        </tr>
+        <tr>
+          <td>Kebersihan Selalu Terjaga</td>
+          <td class="icon">&#10004;</td>
+        </tr>
+      </table>
+    </div>
+    </section>
+
+    <!--Contact Us-->
+    <section class="kontak" id="kontak">
+      <div class="bungkus">
+      <h2>Contact Us</h2>
+      <table>
+        <tr>
+          <td class="left">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11789.027610143025!2d109.33149707165627!3d-7.427763201073222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65598425a081d9%3A0x8867088f44d9aa6e!2sWarung%20Makan%20Orange!5e0!3m2!1sid!2sid!4v1685262848816!5m2!1sid!2sid" width="300" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </td>
+            <td class="right">
+              <form id="contactForm" name="form" method="post">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" />
+                <label for="no-hp">Nomor Hp:</label>
+                <input type="tel" id="no-hp" name="no-hp" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" />
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" cols="30" rows="6"></textarea>
+                <button type="submit">Kirim Pesan</button>
+              </form>
+              <div id="popup" class="popup">
+                <h3 class="tekspop">Terima Kasih <span id="namaPopup"></span>!<br>Pesan Anda Telah Terkirim.</h3>
+                <button id="okButton">OK</button>
+              </div>
+            </td>
+        </tr>
+          </table>
+      </div>
+    </section>
+
+ <!--footer-->
+  <footer>
+  <div class="atas">
+      <a href="../Home/index.html" class="logoo">WAREN</a>
+    <div class="sosmed">
+      <p>Follow Our Social Media:</p>
+      <div class="social">
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube-play"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <div class="bawah"><p>&copy; 2023 WAREN | All Rights Reserved</p></div>      
+  </footer>
+  <script src="script.js"></script>    
+  </body>
+</html>
